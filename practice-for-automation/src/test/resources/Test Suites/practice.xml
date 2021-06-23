@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="AutomationPracticeSuite" verbose="1" >
+  <test name="Page1-CH" >
+  <parameter name="browser" value = "Chrome" />
+  
+    <classes>
+       <class name="com.automationpractice.HoverOver" />
+    </classes>
+  </test>
+ 
+
+  
+</suite>

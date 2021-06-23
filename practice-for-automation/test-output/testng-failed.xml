@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutomationPracticeSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Page1-CH(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.automationpractice.HoverOver">
+        <methods>
+          <include name="quit"/>
+          <include name="womenHoverOver"/>
+          <include name="openChrome"/>
+        </methods>
+      </class> <!-- com.automationpractice.HoverOver -->
+    </classes>
+  </test> <!-- Page1-CH(failed) -->
+</suite> <!-- Failed suite [AutomationPracticeSuite] -->
